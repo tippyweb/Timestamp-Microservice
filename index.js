@@ -24,6 +24,9 @@ app.get("/api/hello", function (req, res) {
   res.json({greeting: 'hello API'});
 });
 
+//######################################################
+// Timestamp Microservice - 2024-10-04
+//######################################################
 
 // timestamp API
 app.get('/api/:date?', (req, res) => {
